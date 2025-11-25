@@ -1,18 +1,107 @@
-body{
-	background-color:ForestGreen;
-
-h1{
-  text-align: center;
+  /* Juliet Akinyemi's CSS*/
+/* Body styles for the whole page*/
+body {
+    background-color: ForestGreen;
+    padding: 0;
+    margin: 0;
 }
 
+/* Main heading styles */
+h1 {
+    text-align: center;
+    /* Adds spacing above and below heading */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    /* Text shadow for depth */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Subheading styles */
+h3 {
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Paragraph styling */
+.content-box {
+    line-height: 1.6;
+    background-color: PaleGreen;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Section spacing adds space between each section */
+.section {
+    margin-bottom: 50px;
+}
+
+/* Image row spacing adds space below images */
+.image-row {
+    margin-bottom: 20px;
+}
+
+/* Image column spacing on mobile */
+.image-row .col-md-6 {
+    margin-bottom: 15px;
+}
+
+/* Image styles */
+img {
+    transition: transform 0.3s ease;
+}
+
+/* Image hover effect zooms in when you hover your mouse */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* font class for body text */
 .inter-regular {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:300;
-  font-style: normal;
-  
-}.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Font class for headings */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+/* Responsive design smaller heading for mobile devices */
+@media (max-width: 768px) {
+    .bebas-neue-regular {
+        font-size: 2rem;
+    }
+}
+/* Simple navbar styling */
+nav {
+    background-color: darkgreen;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Logo  */
+nav img {
+    height: 120px; 
+    float: left;
+    margin-right: 20px; /* Adds space between logo and links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    line-height: 50px; /* Match logo height */
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
