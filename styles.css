@@ -1,24 +1,25 @@
   /* Juliet Akinyemi's CSS*/
 /* Body styles for the whole page*/
-body {
+.bodyJA {
     background-color: ForestGreen;
     padding: 0;
     margin: 0;
+	padding-top: 80px;
 }
 
 /* Main heading styles */
-h1 {
+.bebas-neue-regular {
     text-align: center;
     /* Adds spacing above and below heading */
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
-    /* Text shadow for depth */
+    /*ext shadow for depth */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Subheading styles */
-h3 {
+.heading{
     color: white;
     margin-bottom: 20px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
@@ -49,14 +50,14 @@ h3 {
 }
 
 /* Image styles */
-img {
+.img-fluid-rounded {
     transition: transform 0.3s ease;
 }
 
 /* Image hover effect zooms in when you hover your mouse */
-img:hover {
+.img-fluid-rounded:hover {
     transform: scale(1.05);
-}
+} 
 
 /* font class for body text */
 .inter-regular {
@@ -80,28 +81,11 @@ img:hover {
         font-size: 2rem;
     }
 }
-/* Simple navbar styling */
-nav {
-    background-color: darkgreen;
-    padding: 15px;
-    text-align: center;
+
+.JA-logo{
+	height:40px;
+	width:40px;
+	margin:5px;
 }
 
-/* Logo  */
-nav img {
-    height: 120px; 
-    float: left;
-    margin-right: 20px; /* Adds space between logo and links */
-}
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    line-height: 50px; /* Match logo height */
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
